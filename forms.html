@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codetopia Community</title>
+  </head>
+  <body>
+    <h2>🎓 Codetopia Community Student registration form</h2>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+        <label for="fname">First Name*</label><br />
+        <input type="text" name="" id="fname" placeholder="Jon" />
+
+        <br />
+        <br />
+        <label for="lname">Last Name*</label><br />
+        <input type="text" name="" id="lname" placeholder="Doe" />
+        <br />
+        <br />
+
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="jon@email.com"
+        /><br /><br />
+
+        <label for="p-num">Phone Number</label><br />
+        <input
+          type="tel"
+          name=""
+          id="p-num"
+          placeholder="123-456-7890"
+        /><br /><br />
+        <label for="dob">Date Of Birth</label><br />
+        <input type="date" name="" id="dob" /><br />
+        <br />
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="male" />
+        <label for="">Male</label><br />
+        <input type="radio" name="gender" id="female" />
+        <label for="">Female</label><br />
+        <input type="radio" name="gender" id="Other" />
+        <label for="">Other</label><br />
+        <input type="radio" name="gender" id="Pre" />
+        <label for="">Prefer Not to Say</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Address Information</legend>
+        <br />
+        <label for="street">Street Address*</label><br />
+        <input
+          placeholder="123 Main Street"
+          type="text"
+          name=""
+          id="street"
+        /><br /><br />
+
+        <label for="city">City*</label><br />
+        <input
+          placeholder="Enter your city"
+          type="text"
+          id="city"
+        /><br /><br />
+        <label for="state">State/Province</label><br />
+        <select name="" id="state">
+          <option value="">-- Select State --</option>
+          <option value="">Accra</option>
+          <option value="">Tema</option>
+          <option value="">Kumasi</option>
+        </select>
+        <br /><br />
+        <label for="zip">ZIP/POSTAL CODE</label><br />
+        <input placeholder="1234 or 59094849" type="text" name="" id="zip" />
+        <br /><br />
+        <label for="country">Country*</label><br />
+        <select name="" id="country">
+          <option value="">Ghana</option>
+          <option value="">South Africa</option>
+          <option value="">France</option>
+          <option value="">Germany</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Educational Background</legend>
+        <br />
+        <label for="higedu">Highest Level Of Education*</label><br />
+        <select name="" id="higedu">
+          <option value="">University</option>
+          <option value="">Senior High School</option>
+          <option value="">Junior High School</option>
+        </select>
+        <label for="foStudy">Field of Study</label><br />
+        <input type="text" id="foStudy" /><br /><br />
+        <label for="grad">Graduation Year</label><br />
+        <input type="text" name="" id="grad" /><br /><br />
+        <label for="uni">School/University Name</label><br />
+        <input type="text" name="" id="uni" /><br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Programming Exercises</legend>
+        <br />
+        <label for="pExer">Current Programming Experience Level*</label><br />
+        <input placeholder="" type="radio" name="ex" id="aBeginner" />
+        <label for="aBeginner">Absolute Beginner</label><br />
+
+        <input type="radio" name="ex" id="sExperience" />
+        <label for="sExperience">Some Experience </label><br />
+
+        <input type="radio" name="ex" id="Intermediate" />
+        <label for="Intermediate">Intermediate</label><br />
+
+        <input type="radio" name="ex" id="Advanced" />
+        <label for="Advanced">Advanced</label>
+        <br />
+        <br />
+        <label for="languages"
+          >Programming Languages you know (Check all that apply)</label
+        >
+        <div id="languages">
+          <input type="checkbox" name="" id="ht" />
+          <label for="ht">HTML</label><br />
+          <input type="checkbox" name="" id="css" />
+          <label for="css">CSS</label><br />
+          <input type="checkbox" name="" id="js" />
+          <label for="js">JavaScript</label><br />
+          <input type="checkbox" name="" id="python" />
+          <label for="python">Python</label><br />
+          <input type="checkbox" name="" id="jv" />
+          <label for="jv">Java</label><br />
+          <input type="checkbox" name="" id="cc" />
+          <label for="cc">C#</label><br />
+          <input type="checkbox" name="" id="php" />
+          <label for="php">PHP</label><br />
+          <input type="checkbox" name="" id="nota" />
+          <label for="nota">None of The Above </label><br /><br />
+        </div>
+        <p>How many years have you been coding?</p>
+        <input type="range" id="yea" /><br />
+        <label for="yea">Years:</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Course Selection</legend>
+        <br />
+        <label for="CoInterest">Primary Course Interest*</label><br />
+        <select name="" id="CoInterest">
+          <option value="">-- Select Your Main Course --</option>
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">Java</option>
+        </select>
+        <br /><br />
+
+        <label for=""><strong>Preferred Learning Schedule</strong></label
+        ><br />
+        <input type="radio" name="" id="weekdays" />
+        <label for="">Weekdays</label><br />
+        <input type="radio" name="" id="weekends" />
+        <label for="">Weekends</label><br />
+        <input type="radio" name="" id="evening" />
+        <label for="">Evenings</label><br />
+        <input type="radio" name="" id="flexible" />
+        <label for="">Flexible Schedule</label><br /><br />
+        <label for="startDate">Preferred Start Date</label><br />
+        <input type="date" name="" id="startDate" />
+      </fieldset>
+      <fieldset>
+        <legend>Goals & Motivation</legend>
+        <br />
+        <label for="goals">What are your career goals</label><br />
+        <textarea
+          placeholder="Tell us about your career aspirations, what you hope to achieve, and how programming fits into your goals... (50-500 characters)"
+          name=""
+          id="goals"
+        ></textarea
+        ><br /><br />
+        <label for="goals">What motivates you to learn programming?</label
+        ><br />
+        <textarea
+          placeholder="Share what drives your interest in technology and programming..."
+          name=""
+          id="goals"
+        ></textarea
+        ><br /><br />
+        <label for="hours"
+          >How many hours a week can you commit to studying?</label
+        ><br />
+        <input placeholder="Enter hours" type="text" name="" id="hours" />
+        <br /><br />
+        <label for="learnStyle"
+          >Learning Style Preferences (Check all that apply)</label
+        >
+        <div id="learnStyle">
+          <input type="checkbox" name="" id="vT" />
+          <label for="vT">Video Tutorials</label><br />
+          <input type="checkbox" name="" id="handsOn" />
+          <label for="handsOn">Hands-On Projects</label><br />
+          <input type="checkbox" name="" id="groupD" />
+          <label for="groupD">Group Discussions</label><br />
+          <input type="checkbox" name="" id="one_on_one" />
+          <label for="one_on_one">One-on-one Mentoring</label><br />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Technical Information</legend>
+        <br />
+        <label for="os">Operating System</label><br />
+        <select name="" id="os">
+          <option value="">-- Select OS --</option>
+          <option value="">Mac Os</option>
+          <option value="">Windows</option>
+          <option value="">Linux Os</option>
+          <option value="">Chrome Os</option></select
+        ><br />
+        <br />
+        <label for="os">Internet Connection Speed</label><br />
+        <select name="" id="os">
+          <option value="">-- Select Speed --</option>
+          <option value="">1mbps to 10mbps</option>
+          <option value="">10mbps to 50mbps</option>
+          <option value="">50mbps to 100mbps</option>
+          <option value="">100mbps to 300mbps</option></select
+        ><br /><br />
+        <label for="accessss">Do you have access to:</label>
+        <div id="accessss">
+          <input type="checkbox" name="" id="desk" />
+          <label for="desk">Desktop/Laptop Computer</label><br />
+          <input type="checkbox" name="" id="webcam" />
+          <label for="webcam">Webcam</label><br />
+          <input type="checkbox" name="" id="mic" />
+          <label for="">Microphone</label><br />
+          <input type="checkbox" name="" id="quiet" />
+          <label for="">Quiet Study Soace</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label for="resume">Upload Resume (Optional)</label><br />
+        <input
+          type="file"
+          id="resume"
+          name="resume"
+          accept=".pdf,.doc,.docx"
+        /><br />
+        <small>Accepted formats: PDF, DOC, DOCX</small><br /><br />
+
+        <label for="portfolio">Portfolio Website URL</label><br />
+        <input
+          type="url"
+          id="portfolio"
+          name="portfolio"
+          placeholder="https://yourportfolio.com"
+        /><br /><br />
+
+        <label for="github">GitHub Profile URL</label><br />
+        <input
+          type="url"
+          id="github"
+          name="github"
+          placeholder="https://github.com/yourusername"
+        /><br /><br />
+
+        <label for="linkedin">LinkedIn Profile URL</label><br />
+        <input
+          type="url"
+          id="linkedin"
+          name="linkedin"
+          placeholder="https://linkedin.com/in/yourprofile"
+        /><br /><br />
+
+        <label for="ref-source"
+          >How did you hear about Codetopia Community?</label
+        ><br />
+        <select id="ref-source" name="ref_source">
+          <option value="">-- Select Source --</option>
+          <option value="friend">Friend/Colleague</option>
+          <option value="social">Social Media</option>
+          <option value="search">Search Engine</option>
+          <option value="event">Event/Meetup</option>
+          <option value="other">Other</option></select
+        ><br /><br />
+
+        <label for="comments">Additional Comments or Questions</label><br />
+        <textarea
+          id="comments"
+          name="comments"
+          rows="6"
+          placeholder="Any additional information, special requirements, or questions you'd like to share..."
+        ></textarea
+        ><br /><br />
+
+        <label for="emergency-name">Emergency Contact Name</label><br />
+        <input
+          type="text"
+          id="emergency-name"
+          name="emergency_name"
+          placeholder="Full name of emergency contact"
+        /><br /><br />
+
+        <label for="emergency-phone">Emergency Contact Phone</label><br />
+        <input
+          type="tel"
+          id="emergency-phone"
+          name="emergency_phone"
+          placeholder="Emergency contact phone number"
+        /><br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Agreement & Terms</legend>
+        <p><b>Please read and agree to the following:</b></p>
+
+        <input type="checkbox" id="certify" name="certify" required />
+        <label for="certify"
+          >I certify that all information provided is accurate and complete
+          *</label
+        ><br /><br />
+
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">I agree to the Terms and Conditions *</label
+        ><br /><br />
+
+        <input type="checkbox" id="privacy" name="privacy" required />
+        <label for="privacy">I agree to the Privacy Policy *</label><br /><br />
+
+        <input type="checkbox" id="updates" name="updates" />
+        <label for="updates"
+          >I agree to receive course updates and promotional emails</label
+        ><br /><br />
+
+        <input type="checkbox" id="consent" name="consent" />
+        <label for="consent"
+          >I consent to sharing my success story and projects for marketing
+          purposes</label
+        ><br /><br />
+
+        <label for="signature">Digital Signature (Type your full name) *</label
+        ><br />
+        <input
+          type="text"
+          id="signature"
+          name="signature"
+          placeholder="Type your full legal name"
+          required
+        /><br /><br />
+
+        <label for="date">Date *</label><br />
+        <input type="date" id="date" name="date" required /><br /><br />
+      </fieldset>
+      <br />
+      <button type="submit">Submit Registration</button>
+      <button type="reset">Reset Form</button>
+      <button type="">Save as Draft</button>
+    </form>
+    <br />
+    <hr />
+    <section>
+      <h3>📞 Need Help?</h3>
+
+      <p>
+        <b>Contact Codetopia Community Support:</b><br />
+        Email:
+        <a href="mailto:support@codetopiacommunity.com"
+          >support@codetopiacommunity.com</a
+        ><br />
+        Phone: <a href="tel:+2335551234567">+233-555-123-4567</a><br />
+        Hours: Monday, Wednesday, Friday 9 PM - 11 PM GMT
+      </p>
+
+      <p>
+        <b>📍 Campus Locations:</b><br />
+        Jupiter 🚀 • Japan 🗾 • Tesano • The Moon 🌚 • Seth's Bedroom 🤣
+      </p>
+
+      <footer>
+        <p>
+          © 2024 Codetopia Community. All rights reserved. |
+          <a href="#"><em>Privacy Policy</em></a> |
+          <a href="#"><em>Terms of Service</em></a> |
+          <a href="#"><em>Accessibility</em></a>
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
